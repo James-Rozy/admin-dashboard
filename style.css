@@ -197,6 +197,10 @@ p {
   grid-template-columns: minmax(20px, 1.2rem) 1fr;
 }
 
+.card:hover {
+  transform: scale(1.01);
+}
+
 .left-border {
   background-color: var(--card-border);
   border-radius: 25px 0 0 25px;
